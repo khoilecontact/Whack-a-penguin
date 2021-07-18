@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		22ADEEB526A1C7FF00E04320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADEEB426A1C7FF00E04320 /* AppDelegate.swift */; };
 		22ADEEB726A1C7FF00E04320 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22ADEEB626A1C7FF00E04320 /* GameScene.sks */; };
-		22ADEEB926A1C7FF00E04320 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22ADEEB826A1C7FF00E04320 /* Actions.sks */; };
 		22ADEEBB26A1C7FF00E04320 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADEEBA26A1C7FF00E04320 /* GameScene.swift */; };
 		22ADEEBD26A1C7FF00E04320 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADEEBC26A1C7FF00E04320 /* GameViewController.swift */; };
 		22ADEEC026A1C7FF00E04320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ADEEBE26A1C7FF00E04320 /* Main.storyboard */; };
 		22ADEEC226A1C80100E04320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ADEEC126A1C80100E04320 /* Assets.xcassets */; };
+		22ADEECC26A1D87E00E04320 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADEECB26A1D87E00E04320 /* WhackSlot.swift */; };
+		22ADEED026A2CB2900E04320 /* game-over-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22ADEECF26A2CB2900E04320 /* game-over-sound-effect.mp3 */; };
+		22ADEED326A2DABC00E04320 /* whackBad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22ADEED126A2DABC00E04320 /* whackBad.mp3 */; };
+		22ADEED426A2DABC00E04320 /* whack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22ADEED226A2DABC00E04320 /* whack.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22ADEEB126A1C7FF00E04320 /* Whack-a-penguin_14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whack-a-penguin_14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22ADEEB426A1C7FF00E04320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22ADEEB626A1C7FF00E04320 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		22ADEEB826A1C7FF00E04320 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		22ADEEBA26A1C7FF00E04320 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		22ADEEBC26A1C7FF00E04320 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		22ADEEBF26A1C7FF00E04320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22ADEEC126A1C80100E04320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22ADEEC326A1C80100E04320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22ADEECB26A1D87E00E04320 /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
+		22ADEECF26A2CB2900E04320 /* game-over-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-over-sound-effect.mp3"; sourceTree = "<group>"; };
+		22ADEED126A2DABC00E04320 /* whackBad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whackBad.mp3; sourceTree = "<group>"; };
+		22ADEED226A2DABC00E04320 /* whack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whack.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				22ADEEB426A1C7FF00E04320 /* AppDelegate.swift */,
 				22ADEEB626A1C7FF00E04320 /* GameScene.sks */,
-				22ADEEB826A1C7FF00E04320 /* Actions.sks */,
 				22ADEEBA26A1C7FF00E04320 /* GameScene.swift */,
+				22ADEECB26A1D87E00E04320 /* WhackSlot.swift */,
 				22ADEEBC26A1C7FF00E04320 /* GameViewController.swift */,
 				22ADEEBE26A1C7FF00E04320 /* Main.storyboard */,
 				22ADEEC126A1C80100E04320 /* Assets.xcassets */,
 				22ADEEC326A1C80100E04320 /* Info.plist */,
+				22ADEED226A2DABC00E04320 /* whack.mp3 */,
+				22ADEED126A2DABC00E04320 /* whackBad.mp3 */,
+				22ADEECF26A2CB2900E04320 /* game-over-sound-effect.mp3 */,
 			);
 			path = "Whack-a-penguin_14";
 			sourceTree = "<group>";
@@ -130,7 +139,9 @@
 				22ADEEC026A1C7FF00E04320 /* Main.storyboard in Resources */,
 				22ADEEB726A1C7FF00E04320 /* GameScene.sks in Resources */,
 				22ADEEC226A1C80100E04320 /* Assets.xcassets in Resources */,
-				22ADEEB926A1C7FF00E04320 /* Actions.sks in Resources */,
+				22ADEED326A2DABC00E04320 /* whackBad.mp3 in Resources */,
+				22ADEED026A2CB2900E04320 /* game-over-sound-effect.mp3 in Resources */,
+				22ADEED426A2DABC00E04320 /* whack.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +154,7 @@
 			files = (
 				22ADEEBB26A1C7FF00E04320 /* GameScene.swift in Sources */,
 				22ADEEBD26A1C7FF00E04320 /* GameViewController.swift in Sources */,
+				22ADEECC26A1D87E00E04320 /* WhackSlot.swift in Sources */,
 				22ADEEB526A1C7FF00E04320 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "KhoiLe.Whack-a-penguin-14";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -309,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "KhoiLe.Whack-a-penguin-14";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
